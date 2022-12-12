@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "are": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "installed": "^3.3.1",
+    "puppeteer": "^19.4.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.0",
+    "sure": "^0.0.3"
+  },
+  "bin": "index.js",
+  "name": "3step-logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "npx pkg . & cp -r chromium dist & cp -r .env dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "pkg": {
+    "assets": "chromium",
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}

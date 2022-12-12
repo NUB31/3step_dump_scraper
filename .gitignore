@@ -1,0 +1,5 @@
+**/.env
+**/dist
+**/installer*
+**/chromium
+**/node_modules
