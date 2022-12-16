@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "are": "^0.0.1",
+    "decompress": "^4.2.1",
     "dotenv": "^16.0.3",
+    "download": "^8.0.0",
     "fs-extra": "^11.1.0",
     "installed": "^3.3.1",
     "puppeteer": "^19.4.0",
     "puppeteer-extra": "^3.3.4",
-    "puppeteer-extra-plugin-user-preferences": "^2.4.0",
-    "sure": "^0.0.3"
+    "puppeteer-extra-plugin-user-preferences": "^2.4.0"
   },
   "bin": "index.js",
   "name": "3step-logger",
@@ -24,7 +24,6 @@
     "pkg": "^5.8.0"
   },
   "pkg": {
-    "assets": "chromium",
     "targets": [
       "node16-win-x64"
     ],
